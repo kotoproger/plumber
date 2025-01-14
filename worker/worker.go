@@ -7,7 +7,7 @@ import (
 	"go.temporal.io/sdk/workflow"
 )
 
-type WorkerDecorator struct {
+type WorkerDecorator struct { //nolint:revive
 	inner worker.Worker
 }
 
