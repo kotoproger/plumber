@@ -1,6 +1,11 @@
 module github.com/kotoproger/plumber
 
-go 1.23.1
+go 1.22
+
+require (
+	github.com/nexus-rpc/sdk-go v0.1.0
+	go.temporal.io/sdk v1.32.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -10,14 +15,12 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.22.0 // indirect
-	github.com/nexus-rpc/sdk-go v0.1.0 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/stretchr/testify v1.10.0 // indirect
 	go.temporal.io/api v1.43.0 // indirect
-	go.temporal.io/sdk v1.32.0 // indirect
 	golang.org/x/exp v0.0.0-20231127185646-65229373498e // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
